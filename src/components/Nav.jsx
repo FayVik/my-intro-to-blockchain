@@ -12,8 +12,7 @@ const NavBar = () => {
 		setActive(!active);
 	};
 	return (
-		<nav
-			className={`flex items-center flex-wrap  p-3 w-full z-40 ${Style.nav}`}>
+		<nav className={`flex items-center flex-wrap w-full z-40 ${Style.nav}`}>
 			<Link to='/'>
 				<p className={`inline-flex items-center p-2 mr-4 ${Style.brand} `}>
 					dec

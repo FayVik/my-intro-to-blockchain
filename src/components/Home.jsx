@@ -7,7 +7,7 @@ import Style from '../Assets/Home.module.css';
 
 export default function Home() {
 	return (
-		<div class='flex flex-row flex-wrap items-center'>
+		<div className={`flex flex-row flex-wrap items-center ${Style.homeView}`}>
 			<div class='flex-2 lg:w-3/6 min-h-54 sm:w-full md:w-1/2 xs:w-full w-full p-4'>
 				<h1 className='text-3xl font-bold'>Decentralized Fund Me,</h1>
 				<p className='pb-0'>

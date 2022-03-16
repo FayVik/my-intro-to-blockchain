@@ -1,4 +1,7 @@
 /** @format */
+.homeView {
+	height: 80vh;
+}
 .span {
 	color: rgb(28, 66, 152);
 	line-height: 20px;
