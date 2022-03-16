@@ -1,0 +1,15 @@
+/** @format */
+.span {
+	color: rgb(28, 66, 152);
+	line-height: 20px;
+	font-weight: 400;
+	text-align: left;
+	font-family: Nunito, sans-serif;
+	margin: 0px;
+	margin-left: 4px;
+	display: inline-block;
+	font-size: 16px;
+}
+.button {
+	margin: 60px 0px 0px;
+}

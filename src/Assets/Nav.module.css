@@ -1,0 +1,33 @@
+/** @format */
+.nav {
+	min-height: 10vh;
+}
+.brand {
+	color: rgb(148, 165, 197);
+	font-size: 20px;
+	line-height: 32px;
+	font-weight: 700;
+	text-align: left;
+	font-family: 'Libre Baskerville', serif;
+	margin: 0px;
+	position: relative;
+	z-index: 4;
+	display: inline-block;
+}
+.brand::before {
+	content: '';
+	position: absolute;
+	height: 10px;
+	width: 80%;
+	bottom: 14px;
+	background-color: rgb(80, 216, 175);
+	display: block;
+	z-index: -1;
+}
+.brand span {
+	color: rgb(28, 66, 152);
+	font-family: 'Nunito Sans', sans-serif;
+}
+.toggle {
+	background-color: rgb(28, 66, 152);
+}
