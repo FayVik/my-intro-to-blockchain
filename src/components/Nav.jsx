@@ -2,10 +2,10 @@
 
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import Style from '../Assets/Nav.module.css';
+import Style from '../assets/Nav.module.css';
 import { ButtonNav } from './Button';
 
-const NavBar = () => {
+const Nav = () => {
 	const [active, setActive] = useState(false);
 
 	const handleClick = () => {
@@ -43,7 +43,7 @@ const NavBar = () => {
 					active ? '' : 'hidden'
 				}   w-full lg:inline-flex lg:flex-grow lg:w-auto`}>
 				<div className='lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto'>
-					<Link to='/'>
+					<Link to='/FormView'>
 						<ButtonNav className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-gray-300 hover:text-black'>
 							Connect
 						</ButtonNav>
@@ -53,4 +53,4 @@ const NavBar = () => {
 		</nav>
 	);
 };
-export default NavBar;
+export default Nav;

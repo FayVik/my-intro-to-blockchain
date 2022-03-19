@@ -3,5 +3,5 @@
 	min-height: 10vh;
 }
 .App-body {
-	height: 80vh;
+	min-height: 80vh;
 }

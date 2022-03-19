@@ -25,9 +25,9 @@
 	z-index: -1;
 }
 .brand span {
-	color: rgb(28, 66, 152);
+	color: rgb(221, 128, 6);
 	font-family: 'Nunito Sans', sans-serif;
 }
 .toggle {
-	background-color: rgb(28, 66, 152);
+	background-color: rgb(221, 128, 6);
 }

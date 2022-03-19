@@ -1,7 +1,7 @@
 /** @format */
 
 import React from 'react';
-import Style from '../Assets/Footer.module.css';
+import Style from '../assets/Footer.module.css';
 
 const Footer = () => {
 	return (

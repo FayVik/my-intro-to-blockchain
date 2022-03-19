@@ -8,6 +8,8 @@
 	-webkit-box-align: center;
 	align-items: center;
 	background-color: rgb(148, 165, 197);
+	padding: 0 10px;
+	text-align: center;
 }
 .text {
 	color: rgb(66, 66, 66);

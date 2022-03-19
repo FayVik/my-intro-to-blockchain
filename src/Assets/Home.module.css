@@ -1,9 +1,9 @@
 /** @format */
 .homeView {
-	height: 80vh;
+	min-height: 80vh;
 }
 .span {
-	color: rgb(28, 66, 152);
+	color: rgb(221, 128, 6);
 	line-height: 20px;
 	font-weight: 400;
 	text-align: left;
