@@ -2,8 +2,8 @@
 
 import React from 'react';
 import { Button } from './Button';
-import img from '../assets/images/card.6d4ee846.png';
-import Style from '../assets/Home.module.css';
+import img from '../Assets/images/card.6d4ee846.png';
+import Style from '../Assets/Home.module.css';
 import { Link } from 'react-router-dom';
 
 const Home = () => {

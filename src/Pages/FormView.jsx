@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Form from '../components/Form';
-import Style from '../assets/FormView.module.css';
+import Style from '../Assets/FormView.module.css';
 
 export default function FormView() {
 	return (

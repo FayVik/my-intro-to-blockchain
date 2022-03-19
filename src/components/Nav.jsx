@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import Style from '../assets/Nav.module.css';
+import Style from '../Assets/Nav.module.css';
 import { ButtonNav } from './Button';
 
 const Nav = () => {

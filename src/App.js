@@ -1,11 +1,11 @@
 /** @format */
 import { Route } from 'react-router-dom';
 import './App.css';
-import './assets/Global.module.css';
+import './Assets/Global.module.css';
 import Nav from './components/Nav';
 import Home from './components/Home';
 import Footer from './components/Footer';
-import FormView from './pages/FormView';
+import FormView from './Pages/FormView';
 import { Switch } from 'react-router-dom';
 
 function App() {

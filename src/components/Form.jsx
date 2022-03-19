@@ -1,7 +1,7 @@
 /** @format */
 
 import React from 'react';
-import Style from '../assets/FormView.module.css';
+import Style from '../Assets/FormView.module.css';
 import { ButtonNav } from './Button';
 
 const Form = () => {
